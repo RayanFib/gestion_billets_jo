@@ -1,8 +1,8 @@
-# 🎟️ Gestion des Billets – JO 2024
+Gestion des Billets – JO 2024
 
 Ce projet est une application web de gestion de billets pour les Jeux Olympiques de Paris 2024, réalisée dans le cadre du BTS SIO SLAM à l'ESIC.
 
-## 🧩 Fonctionnalités
+Fonctionnalités
 
 - Inscription et connexion des utilisateurs
 - Tableau de bord des billets
@@ -10,14 +10,14 @@ Ce projet est une application web de gestion de billets pour les Jeux Olympiques
 - Liste des billets avec informations : nom, email, événement, date, type
 - Sécurité simple par sessions PHP
 
-## 🛠️ Technologies utilisées
+Technologies utilisées
 
 - PHP (Back-end)
 - MySQL (Base de données)
 - HTML / CSS (Frontend)
 - WAMP (Environnement de développement local)
 
-## 📁 Structure du projet
+Structure du projet
 
 ```
 gestion_billets_jo/
@@ -37,7 +37,7 @@ gestion_billets_jo/
     └── app.js
 ```
 
-## 🧪 Installation
+Installation
 
 1. Cloner le projet dans `C:/wamp64/www` :
 ```
@@ -53,8 +53,8 @@ git clone https://github.com/votre-utilisateur/gestion_billets_jo.git
 http://localhost/gestion_billets_jo/login.php
 ```
 
-## 🔐 Identifiants test
+Identifiants test
 - À créer via le formulaire d'inscription (`register.php`)
 
-## ✍️ Réalisé par
+Réalisé par
 **Rayan Fibleuil – BTS SIO SLAM – ESIC** – Juin 2025
