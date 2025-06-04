@@ -1,0 +1,62 @@
+
+/* Import Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Couleurs JO : Bleu, Rouge, Jaune, Vert, Noir */
+:root {
+    --bleu-jo: #0085C7;
+    --jaune-jo: #F4C300;
+    --noir-jo: #000000;
+    --vert-jo: #009F3D;
+    --rouge-jo: #DF0024;
+}
+
+body {
+    background: linear-gradient(135deg, var(--bleu-jo), var(--jaune-jo));
+    background-size: 300% 300%;
+    animation: bgShift 15s ease infinite;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding-top: 50px;
+}
+
+@keyframes bgShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+h2, h3 {
+    color: var(--jaune-jo);
+    text-shadow: 1px 1px 2px #000;
+}
+
+table {
+    background-color: #fff;
+    color: #000;
+}
+
+a {
+    color: var(--rouge-jo);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--vert-jo);
+}
+
+.btn-custom {
+    background-color: var(--bleu-jo);
+    border: none;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: var(--rouge-jo);
+    color: #fff;
+}
